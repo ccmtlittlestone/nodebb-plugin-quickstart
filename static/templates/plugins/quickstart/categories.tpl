@@ -1,4 +1,4 @@
 <div id="settings">
-  {settings.setting1}
-  {settings.setting2}
+  {settings.setting-1}
+  {settings.setting-2}
 </div>

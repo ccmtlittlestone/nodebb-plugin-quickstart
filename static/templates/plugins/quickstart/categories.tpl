@@ -1,3 +1,1 @@
-<div id="settings">
-  settings
-</div>
+{mySettings}

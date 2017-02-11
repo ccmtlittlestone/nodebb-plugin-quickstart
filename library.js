@@ -14,8 +14,8 @@ plugin.init = function(params, callback) {
 
 	router.get('/admin/plugins/quickstart', hostMiddleware.admin.buildHeader, controllers.renderAdminPage);
 	router.get('/api/admin/plugins/quickstart', controllers.renderAdminPage);
-	router.get('/api/plugins/quickstart', controllers.renderPage);
 	router.get('/api/plugins/quickstart/categories', controllers.renderPage);
+	router.get('/api/plugins/quickstart/', controllers.renderPage);
 
 	callback();
 };

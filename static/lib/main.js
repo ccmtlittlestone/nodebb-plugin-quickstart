@@ -1,5 +1,5 @@
 "use strict";
-
+var Settings = module.parent.require('./settings');
 $(document).ready(function() {
 	/*
 		This file shows how client-side javascript can be included via a plugin.
